@@ -15,22 +15,22 @@ Before running the two javascript file, you will need to npm init and npm instal
 
 This bamazonCustomer application will show you a list of items that can be purchased and asks for which item you want to purchase. (See Below)
 
-Item ID  Product Name     Department Name  Price   Quantity in Stock
--------  ---------------  ---------------  ------  -----------------
-1        Hair Dryer       Personal Care    26.78                  57
-2        Tooth Brush      Personal Care    5.74                  200
-3        Hair Brush       Personal Care    16.98                  80
-4        Diapers 24 pack  Baby             9.87                  101
-5        Formula          Baby             28.99                  74
-6        Carseat          Baby             126.78                  5
-7        Shampoo          Personal Care    6.88                  198
-8        Laptop           Computer         426.78                  3
-9        Ipad             Computer         376.99                 30
-10       Desktop          Computer         188.56                 32
-11       Bottle Warmer    Baby             24.77                   4
-12       Comb             Personal Care    2.89                  154
-13       Conditioner      Personal Care    8.63                  176
-14       Tablet           Computer         149.99                 85
+Item ID | Product Name   |  Department Name | Price  | Quantity in Stock
+------- | ---------------|  --------------- | ------ | -----------------
+1       | Hair Dryer     |  Personal Care   | 26.78  |                57
+2       | Tooth Brush    |  Personal Care   | 5.74   |               200
+3       | Hair Brush     |  Personal Care   | 16.98  |                80
+4       | Diapers 24 pack|  Baby            | 9.87   |               101
+5       | Formula        |  Baby            | 28.99  |                74
+6       | Carseat        |  Baby            | 126.78 |                 5
+7       | Shampoo        |  Personal Care   | 6.88   |               198
+8       | Laptop         |  Computer        | 426.78 |                 3
+9       | Ipad           |  Computer        | 376.99 |                30
+10      | Desktop        |  Computer        | 188.56 |                32
+11      | Bottle Warmer  |  Baby            | 24.77  |                 4
+12      | Comb           |  Personal Care   | 2.89   |               154
+13      | Conditioner    |  Personal Care   | 8.63   |               176
+14      | Tablet         |  Computer        | 149.99 |                85
 
 ? What is the Item ID of the item you want to purchase?
 
@@ -49,7 +49,7 @@ Buying an item, but not confirming the purchase.
 
 This will exit out of the application.
 
-![Image of scenario 1](https://github.com/cvanglee/LIRIBot/blob/master/images/Scenario2.PNG)
+![Image of scenario 1](https://github.com/cvanglee/Bamazon/blob/master/images/Scenario1.PNG)
 
 ## BamazonCustomer scenario 2
 
@@ -63,7 +63,7 @@ Insufficient quantity to fullfill your order.
 
 This will exit out of the application.
 
-![Image of scenario 2](https://github.com/cvanglee/LIRIBot/blob/master/images/Scenario2.PNG)
+![Image of scenario 2](https://github.com/cvanglee/Bamazon/blob/master/images/Scenario2.PNG)
 
 ## BamazonCustomer scenario 3
 
@@ -77,7 +77,7 @@ This should display total, update the quantity in the database, and exit the app
 
 If you run it again, it will show the updated quantity for Item ID 2 as 189.
 
-![Image of scenario 3](https://github.com/cvanglee/LIRIBot/blob/master/images/Scenario3.PNG)
+![Image of scenario 3](https://github.com/cvanglee/Bamazon/blob/master/images/Scenario3.PNG)
 
 ## Running the tests for bamazonManager
 
@@ -105,13 +105,13 @@ If you select Exit, you will exit the application.
 
 Select View Products for Sale:
 
-![Image of scenario 4](https://github.com/cvanglee/LIRIBot/blob/master/images/Scenario4.PNG)
+![Image of scenario 4](https://github.com/cvanglee/Bamazon/blob/master/images/Scenario4.PNG)
 
 ## BamazonManager scenario 2
 
 Select View Low Inventory: 
 
-![Image of scenario 5](https://github.com/cvanglee/LIRIBot/blob/master/images/Scenario5.PNG)
+![Image of scenario 5](https://github.com/cvanglee/Bamazon/blob/master/images/Scenario5.PNG)
 
 ## BamazonManager scenario 3
 
@@ -123,7 +123,7 @@ Select Add to Inventory:
 
 This will just bring you back to the main menu.
 
-![Image of scenario 6](https://github.com/cvanglee/LIRIBot/blob/master/images/Scenario6.PNG)
+![Image of scenario 6](https://github.com/cvanglee/Bamazon/blob/master/images/Scenario6.PNG)
 
 ## BamazonManager scenario 4
 
@@ -139,7 +139,7 @@ This will update the quantity in the database for Item ID 1 and then bring you b
 If you View Products for Sale, you will see that the quantity for Item ID is updated to 94.
 
 
-![Image of scenario 7](https://github.com/cvanglee/LIRIBot/blob/master/images/Scenario7.PNG)
+![Image of scenario 7](https://github.com/cvanglee/Bamazon/blob/master/images/Scenario7.PNG)
 
 ## BamazonManager scenario 5
 
@@ -160,7 +160,7 @@ No
 
 This won't update the database and will bring you back to the main menu.
 
-![Image of scenario 8](https://github.com/cvanglee/LIRIBot/blob/master/images/Scenario8.PNG)
+![Image of scenario 8](https://github.com/cvanglee/Bamazon/blob/master/images/Scenario8.PNG)
 
 ## BamazonManager scenario 6
 
@@ -181,7 +181,7 @@ Yes
 
 This will update the database, display updated items in the database, and display the main menu.
 
-![Image of scenario 9](https://github.com/cvanglee/LIRIBot/blob/master/images/Scenario9.PNG)
+![Image of scenario 9](https://github.com/cvanglee/Bamazon/blob/master/images/Scenario9.PNG)
 
 ## BamazonManager scenario 7
 
@@ -189,8 +189,8 @@ Select Exit:
 
 This will exit the application.
 
-![Image of scenario 10](https://github.com/cvanglee/LIRIBot/blob/master/images/Scenario10.PNG)
+![Image of scenario 10](https://github.com/cvanglee/Bamazon/blob/master/images/Scenario10.PNG)
 
 ## Links
 
-- Repository: https://github.com/cvanglee/LIRIBot
+- Repository: https://github.com/cvanglee/Bamazon
