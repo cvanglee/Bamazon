@@ -1,0 +1,24 @@
+{
+  "name": "bamazon",
+  "version": "1.0.0",
+  "description": "This application will take in arguments of a command term and search term and the different commands will either display to the screen concert, song, or movie information.",
+  "main": "bamazonCustomer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cvanglee/Bamazon.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cvanglee/Bamazon/issues"
+  },
+  "homepage": "https://github.com/cvanglee/Bamazon#readme",
+  "dependencies": {
+    "easy-table": "^1.1.1",
+    "inquirer": "^6.2.2",
+    "mysql": "^2.16.0"
+  }
+}
